@@ -5,7 +5,7 @@
       "error",
       {
         "ignoreUrls": true,
-        "code": 80
+        "code": 100
       }
     ],
     "prefer-template": "off",
@@ -28,8 +28,13 @@
     "import/prefer-default-export": 0,
     "func-names": [1, "as-needed"],
     "arrow-body-style": 1,
-    "semi": [1, "never"],
-    "import/no-extraneous-dependencies": ["off", { "devDependencies": false }]
+    "semi": [1, "always"],
+    "import/no-extraneous-dependencies": ["off", { "devDependencies": false }],
+    "function-paren-newline": 1,
+    "comma-dangle": [1, "always-multiline"],
+    "sort-imports": 1,
+    "sort-vars": 1,
+    "sort-keys": 1
   },
   "env": {
     "browser": true,
